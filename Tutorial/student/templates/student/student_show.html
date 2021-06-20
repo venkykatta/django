@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student_show</title>
+</head>
+<body>
+    <h1>The students here at Malineni Lakshmaiah Engineering College.</h1>
+    <div>
+        <ul>
+            {% for i in student %}
+            <li>
+                <h2>Roll No -> {{ i.roll_no }}</h2>
+                <h3>Name    -> {{ i.name}}</h3>
+                <h4>Class   -> {{ i.stud_class }}</h4>
+                <h5>Dept    -> {{ i.department}}</h5>
+            </li>
+            {% endfor%}
+        </ul>
+    </div>
+</body>
+</html>

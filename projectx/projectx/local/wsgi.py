@@ -1,0 +1,1 @@
+/home/venky/Venky/Django-Projects/projectx/projectx/wsgi.py
